@@ -5,8 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
-var articleone={
+var articles = {
+var articleone : {
     title: 'article-one',
     heading: 'article-one',
     date: '5 oct 2016',
@@ -26,6 +26,50 @@ var articleone={
                 this is the first article this is the first article this is the first article this is the first article
                 this is the first article this is the first articlethis is the first article  this is the first article
             </p> `,
+},
+var articletwo : { 
+    title: 'article-one',
+    heading: 'article-one',
+    date: '5 oct 2016',
+    content:`
+            <p>
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first articlethis is the first article  this is the first article
+            </p>
+            <p>
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first articlethis is the first article  this is the first article
+            </p>
+            <p>
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first articlethis is the first article  this is the first article
+            </p> `},
+var articlethree : { 
+    title: 'article-one',
+    heading: 'article-one',
+    date: '5 oct 2016',
+    content:`
+            <p>
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first articlethis is the first article  this is the first article
+            </p>
+            <p>
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first articlethis is the first article  this is the first article
+            </p>
+            <p>
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first article this is the first article this is the first article
+                this is the first article this is the first articlethis is the first article  this is the first article
+            </p> `
+    
+    
+}
 };
 
 function createTemplate(data){
