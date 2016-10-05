@@ -29,8 +29,8 @@ var articles = {
 },
 'article-two' : { 
     title: 'article-one',
-    heading: 'article-one',
-    date: '5 oct 2016',
+    heading: 'article-two',
+    date: '5  2016',
     content:`
             <p>
                 this is the first article this is the first article this is the first article this is the first article
@@ -49,8 +49,8 @@ var articles = {
             </p> `},
  'article-three' : { 
     title: 'article-one',
-    heading: 'article-one',
-    date: '5 oct 2016',
+    heading: 'article-three',
+    date: '5 oct 16',
     content:`
             <p>
                 this is the first article this is the first article this is the first article this is the first article
